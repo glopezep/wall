@@ -1,0 +1,29 @@
+{
+  "name": "wall-client",
+  "version": "0.0.1",
+  "description": "Api client for wall application",
+  "main": "index.js",
+  "repository": "https://github.com/glopezep/wall-client",
+  "author": "Guillermo Lopez",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn lint && NODE_ENV='test' ava ./test/*-test.js",
+    "lint": "eslint ./*.js"
+  },
+  "dependencies": {
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "nock": "^9.0.11"
+  }
+}

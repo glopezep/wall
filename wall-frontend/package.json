@@ -1,0 +1,34 @@
+{
+  "name": "wall-frontend",
+  "version": "0.0.1",
+  "description": "Wall frontend application",
+  "main": "index.js",
+  "author": "Guillermo Lopez",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-beta11",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router-dom": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.2"
+  }
+}

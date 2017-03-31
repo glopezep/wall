@@ -1,0 +1,35 @@
+{
+  "name": "wall-api",
+  "version": "0.0.1",
+  "description": "Api for wall application",
+  "repository": "https://github.com/glopezep/wall-api",
+  "author": "Guillermo Lopez",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn lint && NODE_ENV='test' ava ./test/*-test.js",
+    "lint": "eslint ./*.js",
+    "posts": "micro -p 5000 posts",
+    "users": "micro -p 5001 users",
+    "auth": "micro -p 5002 auth"
+  },
+  "dependencies": {
+    "http-hash": "^2.0.0",
+    "jsonwebtoken": "^7.3.0",
+    "micro": "^7.3.0",
+    "token-extractor": "^0.1.6"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3",
+    "test-listen": "^1.0.1",
+    "uuid": "^3.0.1"
+  }
+}

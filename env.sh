@@ -1,0 +1,5 @@
+export DB_NAME='wall'
+export DB_USERNAME='glopezep'
+export DB_PASSWORD='Guillermo@0525'
+export DB_HOST='localhost'
+export DB_ENGINE='mysql'

@@ -1,0 +1,31 @@
+{
+  "name": "wall-db",
+  "version": "0.2.0",
+  "description": "Db wrapper for wall application",
+  "main": "index.js",
+  "author": "Guillermo Lopez",
+  "license": "MIT",
+  "repository": "https://github.com/glopezep/wall-db",
+  "scripts": {
+    "test": "yarn lint && NODE_ENV='test' ava",
+    "lint": "eslint ./lib/**/*.js",
+    "setup": "node ./setup.js"
+  },
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "bluebird": "^3.5.0",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "uuid": "^3.0.1"
+  }
+}
